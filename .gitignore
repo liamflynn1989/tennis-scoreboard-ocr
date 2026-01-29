@@ -1,0 +1,81 @@
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.safetensors
+*.bin
+checkpoint-*/
+*/weights/
+*/adapter/
+*/processor/
+
+# Training outputs
+yolo_scoreboard_model/
+yolo_scoreboard_data/
+qwen2vl_cropped_lora/
+vlm_cropped_lora/
+vlm_lora_out/
+smolvlm_score_lora*/
+
+# Dataset directories (contain images)
+match1/
+match2/
+match1_bbox/
+match2_bbox/
+cropped_scoreboard_data/
+crops/
+yolo_predictions/
+
+# Results CSVs
+*_results.csv
+*.scores.csv
+
+# Large/generated data files
+full_labels.csv
+cookies.txt
+annotated.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Claude Code
+.claude/
+
+# Notebooks and test files
+*.ipynb
+test/
+
+# Training data files
+*.jsonl
+roboflow_labels.csv
+score_ocr.csv
