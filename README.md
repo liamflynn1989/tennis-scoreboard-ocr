@@ -4,6 +4,16 @@ Extract scores from tennis match videos using a two-stage ML pipeline:
 1. **YOLO** - Detects and crops the scoreboard region
 2. **Qwen2-VL** - Reads the score from the cropped image
 
+## Examples
+
+### Stage 1: YOLO Scoreboard Detection
+![Bounding Box Detection](docs/bbox_detection.jpg)
+
+### Stage 2: Cropped Scoreboard → VLM Score Reading
+![Cropped Scoreboard](docs/cropped_scoreboard.png)
+
+**Output:** `SETS:1-0 | GAME:15-0`
+
 ## Quick Start
 
 Process a video to extract scores:

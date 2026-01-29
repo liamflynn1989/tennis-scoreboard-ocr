@@ -50,6 +50,9 @@ __pycache__/
 dist/
 build/
 
+# Keep docs folder for README images
+!docs/
+
 # OS files
 .DS_Store
 Thumbs.db
